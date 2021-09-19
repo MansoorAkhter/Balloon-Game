@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', 'Barlow Condensed', sans-serif;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+    background: rgb(235, 235, 235);
+}
+/* .balloons{
+    background: #dbdbdb;
+    border-radius: 10px;
+    width: 50vw;
+    height: 80vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    padding: 5%;
+    
+}
+h1{
+    display: flex;
+    justify-content: center;
+} */
+
+.container{
+    max-width: 690px;
+    margin: auto;
+}
+
+h1{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    color: #000000;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.balloons .ball{
+    margin-left: 11%;
+    margin-top: 10px;
+}
+.balloons div{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    background: #ff0080;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    /* color: #ff0080; */
+    font-size: 40px;
+    font-family: sans-serif, arial;
+    border-radius: 100%;
+    margin-top: 25px;
+    display: inline-block;
+    margin: 0px 20px 10px 0px;
+}
+
+.balloons div:nth-child(1){
+    background: #00ffdd;
+    color: #00ffdd;
+}
+.balloons div:nth-child(2n){
+    background: #0004ff;
+    color: #0011ff;
+}
+.balloons div:nth-child(6n){
+    background: #ffce00;
+    color: #ffce00;
+}
+.balloons div:nth-child(4n){
+    background: #ff0000;
+    color: #ff0000;
+}
+
+.balloons div:nth-child(5n){
+    background: #07ca00;
+    color:  #07ca00;
+}
